@@ -3,7 +3,7 @@ describe('Checkout', () => {
       cy.visit('/cart.html');
     });
   
-    it('Deve finalizar uma compra', () => {
+    it('Finalizar uma compra', () => {
       cy.contains('Place Order').click();
       cy.get('#name').type('Teste Gi');
       cy.get('#country').type('Brasil');

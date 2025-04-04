@@ -22,18 +22,26 @@ Projeto desenvolvido com a finalidade de praticar e demonstrar conhecimento em a
 - Git instalado
 
 ## Como executar o projeto (bash)
-1. Clone o repositório:
+1. Clonar o repositório:
+```bash
 git clone https://github.com/gisouza/cypress-demo-blaze
 cd cypress-demo-blaze
+```
 
-2. Instalação de dependências
+2. Instalar de dependências
+```bash
 npm install
+```
 
 3. Executar em modo interativo
+```bash
 npx cypress open
+```
 
 4. Executar em modo headless
+```bash
 npx cypress run
+```
 
 ## Como executar o projeto no Cypress Cloud
 1.  Acesse o dashboard:
@@ -43,6 +51,7 @@ https://cloud.cypress.io/projects/mid55i/runs
 Toda vez que um push é feito na branch main, os testes automatizados são executados automaticamente via GitHub Actions.
 
 O fluxo de trabalho está configurado no arquivo:
+
 .github/workflows/cypress.yml
 
 ## Licença

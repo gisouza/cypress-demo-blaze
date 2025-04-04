@@ -3,7 +3,7 @@ describe('Carrinho de Compras', () => {
       cy.visit('/');
     });
   
-    it('Deve adicionar um produto ao carrinho', () => {
+    it('Adicionar produtos ao carrinho', () => {
       cy.contains('Monitors').click();
       cy.contains('Apple monitor 24').click();
       cy.get('.btn-success').click();
